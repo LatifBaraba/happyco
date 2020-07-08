@@ -1,5 +1,4 @@
  <?php
-
 require "AdminCocreative/function.php";
  
  $lg = query("SELECT * FROM logo ORDER BY id DESC LIMIT 1");
