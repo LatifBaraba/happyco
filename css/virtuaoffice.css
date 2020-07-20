@@ -1,0 +1,56 @@
+body{
+    background-color: #FFFDDD;
+}
+.Data-Form h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 36px;
+    font-weight:800 !important;
+    text-align: center; 
+    margin:auto; 
+    color: #0078BF;
+    margin: 1rem 0;
+
+}
+
+.Data-Form p{
+    color: #E78060;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+.mainnavbar{
+    margin-bottom: 10px;
+    background-color: #E78060;
+   
+}
+
+.menu-item a{
+    color: white !important;
+    text-decoration: none !important;
+}
+.menu-item a:hover{
+    color: #0078BF !important;
+
+}
+
+.mainform{
+    width: 50%;
+    margin: auto;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+.image-logo{
+    height: 25px !important;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 699px){
+    .main-logo{
+        margin: 0 auto;
+        position: absolute;
+    }
+}

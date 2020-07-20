@@ -408,7 +408,7 @@ main > section {
     margin: 0 auto;
 }
 
-.battery:after {
+.battery:{
   background-color: #2E2E2E;
   border-radius: 0 1px 1px 0;
   content: "";
@@ -474,9 +474,9 @@ main > section {
 
 
 .image-logo{
+    height: 30px;
     vertical-align: middle;
-    text-align: center;
-    width: 100%;
+    
 }
 /* LOGO HTML ONLY */
 /* h1.logotext{
@@ -504,6 +504,7 @@ main > section {
 .navbar-header a {
     margin-top: 20px;
 }
+
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
@@ -868,7 +869,7 @@ main > section {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #E78060;
+    
     margin-bottom: 20px;
     color: #E78060;
 }
@@ -1054,8 +1055,10 @@ ul.external li {
 }
 
 #event .overlay { 
-    background-color: #0078BF;
+    background-color: white;
     padding: 20px 0 0 0;
+    
+    
 }
 
 .events-item {
@@ -1173,6 +1176,10 @@ ul.external li {
     right: -2rem;
     width: 2rem;
     background-size: 0.8rem 1.3rem;
+}
+
+.newlayouts{
+    margin-left: 50px !important;
 }
   
 
@@ -1461,8 +1468,9 @@ ul.external li {
 }
 /*OUTLINE COLOR BUTTON*/
 #generic_price_table .generic_content .generic_price_btn a{
-    border: 1px solid #83A638; 
-    color: #83A638;
+    background-color:#0078bf;
+    border-radius: 10px !important;
+    color: white;
 } 
 
 /*HEAD COLUMN COLOR*/
@@ -1475,8 +1483,8 @@ ul.external li {
 
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
-    background-color: #83A638;
-    color: #fff;
+    background-color: white;
+    color: #0078bf;
 } 
 #generic_price_table{
     margin: 50px 0 0 0;
@@ -1986,7 +1994,7 @@ textarea.form-control {
 
 
 /*============================================================
-	Footer
+	Footer sssss
 ==============================================================*/
 
 #footer {
@@ -2484,3 +2492,114 @@ textarea.form-control {
     }
 
 }
+
+.new-products .img-responsive{
+    border-radius: 1px;
+}
+
+.imgnew-products{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 10px !important;
+}
+
+.mid-text{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-product{
+  background-color: #0078BF;
+  opacity: 10 !important;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 5px !important;
+}
+
+.overlayproducts:hover .imgnew-products{
+    opacity: 0.3;
+}
+
+.overlayproducts:hover .mid-text{
+    opacity: 1;
+}
+
+/* new products ends */
+
+
+.newpartners h2{
+    color: #E78060 !important;
+}
+
+.title-newproducts{
+    padding: 0 20px !important;
+}
+
+.h3baru{
+    color:#0078bf;
+    text-align: center; 
+    margin: 20px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+.price-newproducts{
+    height: 100%;
+    padding: 20%;
+}
+
+.pricelist-newproducts{
+    vertical-align: bottom;
+    border: 1px solid #ededed;
+}
+
+.price-newproducts h3 {
+    color: #0078bf;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.price-newproducts span{
+    text-align: center;
+    color: #000;
+    display: block;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+
+}
+
+.book-now {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.del-coffeeshop{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    color: #E78060;
+}
+    
+}
+

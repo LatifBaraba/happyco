@@ -275,7 +275,7 @@ require "AdminCocreative/function.php";
 			</section>
 			<!-- end about section -->
 			
-			
+
 			<!-- Service section -->
 			<!-- <section id="service">
 				<div class="container">
@@ -365,228 +365,88 @@ require "AdminCocreative/function.php";
 			</section> -->
 			<!-- end portfolio section -->
 			
-			<section id="OurSpace">
-				
-				<div class="container">
-					<div class="row">
-					
+			
+
+			<!-- New Products Start-->
+			<section id="newproducts">
+				<div class="container ">
+					<div class="row" style="margin: 20px 0;">
 						<div class="sec-title text-center wow animated fadeInDown">
-							<h2>OUR SPACE</h2>
+							<h2>OUR PRODUCT</h2>
 							<p></p>
 						</div>
-
-						<ul class="project-wrapper wow animated fadeInUp">
-						
-						<!-- ----------------------- gallery display : Co Working Space --------------------->
-							<li class="portfolio-item">
-							<a class="fancybox" title="<?= $glr[0]['judul'];?>" data-fancybox-group="1" href="AdminCocreative/asset/img/gallery/<?= $glr[0]['gambar'];?>">
-								<img src="AdminCocreative/asset/img/gallery/<?= $glr[0]['gambar'];?>" class="img-responsive" alt="<?= $glr[0]['paragraf'];?>">
-							</a>
-								<figcaption class="mask">
-									<h4><?= $glr[0]['judul'];?></h4>
-									<p><?= $glr[0]['ketjudul'];?></p>
-								</figcaption>
-								<!-- <ul class="external">
-									<li><a class="fancybox" title="<?= $glr[0]['judul'];?>" data-fancybox-group="1" href="AdminCocreative/asset/img/gallery/<?= $glr[0]['gambar'];?>">
-									<i class="fa fa-search"></i></a></li>
-									<li><a href=""><i class="fa fa-link"></i></a></li>
-								</ul> -->
-							</li>
-
-						<!-- ----------------------- gallery display : Our Space --------------------->
-							<li class="portfolio-item">
-							<a class="fancybox" title="<?= $glr[1]['judul'];?>" data-fancybox-group="2" href="AdminCocreative/asset/img/gallery/<?= $glr[1]['gambar'];?>">
-								<img src="AdminCocreative/asset/img/gallery/<?= $glr[1]['gambar'];?>" class="img-responsive" alt="<?= $glr[1]['paragraf'];?>">
-							</a>
-								<figcaption class="mask">
-									<h4><?= $glr[1]['judul'];?></h4>
-									<p><?= $glr[1]['ketjudul'];?></p>
-								</figcaption>
-								<!-- <ul class="external">
-									<li><a class="fancybox" title="<?= $glr[1]['judul'];?>" data-fancybox-group="2" href="AdminCocreative/asset/img/gallery/<?= $glr[1]['gambar'];?>">
-									<i class="fa fa-search"></i></a></li>
-									<li><a href=""><i class="fa fa-link"></i></a></li>
-								</ul> -->
-							</li>
-
-						<!-- ----------------------- gallery display : Event Space --------------------->
-							<li class="portfolio-item">
-							<a class="fancybox" title="<?= $glr[2]['judul'];?>" data-fancybox-group="3" href="AdminCocreative/asset/img/gallery/<?= $glr[2]['gambar'];?>">
-								<img src="AdminCocreative/asset/img/gallery/<?= $glr[2]['gambar'];?>" class="img-responsive" alt="<?= $glr[2]['paragraf'];?>">
-							</a>
-								<figcaption class="mask">
-									<h4><?= $glr[2]['judul'];?></h4>
-									<p><?= $glr[2]['ketjudul'];?></p>
-								</figcaption>
-								<!-- <ul class="external">
-									<li><a class="fancybox" title="<?= $glr[2]['judul'];?>" data-fancybox-group="3" href="AdminCocreative/asset/img/gallery/<?= $glr[2]['gambar'];?>">
-									<i class="fa fa-search"></i></a></li>
-									<li><a href=""><i class="fa fa-link"></i></a></li>
-								</ul> -->
-							</li>
-
-						<!-- ----------------------- gallery display : Meeting Room --------------------->
-							<li class="portfolio-item">
-							<a class="fancybox" title="<?= $glr[3]['judul'];?>" data-fancybox-group="4" href="AdminCocreative/asset/img/gallery/<?= $glr[3]['gambar'];?>">
-								<img src="AdminCocreative/asset/img/gallery/<?= $glr[3]['gambar'];?>" class="img-responsive" alt="<?= $glr[3]['paragraf'];?>">
-							</a>
-								<figcaption class="mask">
-									<h4><?= $glr[3]['judul'];?></h4>
-									<p><?= $glr[3]['ketjudul'];?></p>
-								</figcaption>
-								<!-- <ul class="external">
-									<li><a class="fancybox" title="<?= $glr[3]['judul'];?>" data-fancybox-group="4" href="AdminCocreative/asset/img/gallery/<?= $glr[3]['gambar'];?>">
-									<i class="fa fa-search"></i></a></li>
-									<li><a href=""><i class="fa fa-link"></i></a></li>
-								</ul> -->
-							</li>
-						<!-- ----------------------- gallery display : Ameneties --------------------->
-							<li class="portfolio-item">
-							<a class="fancybox" title="<?= $glr[4]['judul'];?>" data-fancybox-group="5" href="AdminCocreative/asset/img/gallery/<?= $glr[4]['gambar'];?>">
-								<img src="AdminCocreative/asset/img/gallery/<?= $glr[4]['gambar'];?>" class="img-responsive" alt="<?= $glr[4]['paragraf'];?>">
-							</a>
-								<figcaption class="mask">
-									<h4><?= $glr[4]['judul'];?></h4>
-									<p><?= $glr[4]['ketjudul'];?></p>
-								</figcaption>
-								<!-- <ul class="external">
-									<li><a class="fancybox" title="<?= $glr[4]['judul'];?>" data-fancybox-group="5" href="AdminCocreative/asset/img/gallery/<?= $glr[4]['gambar'];?>">
-									<i class="fa fa-search"></i></a></li>
-									<li><a href=""><i class="fa fa-link"></i></a></li>
-								</ul> -->
-							</li>
-
-						<!-- ----------------------- gallery display : Office Space --------------------->
-							<li class="portfolio-item">
-								<a class="fancybox" title="<?= $glr[5]['judul'];?>" data-fancybox-group="6" href="AdminCocreative/asset/img/gallery/<?= $glr[5]['gambar'];?>">
-								<img src="AdminCocreative/asset/img/gallery/<?= $glr[5]['gambar'];?>" class="img-responsive" alt="<?= $glr[5]['paragraf'];?>">
-								</a>
-								<figcaption class="mask">
-									<h4><?= $glr[5]['judul'];?></h4>
-									<p><?= $glr[5]['ketjudul'];?></p>
-								</figcaption>
-								<!--<ul class="external">-->
-								<!--	<li><a class="fancybox" title="<?= $glr[5]['judul'];?>" data-fancybox-group="6" href="AdminCocreative/asset/img/gallery/<?= $glr[5]['gambar'];?>">-->
-								<!--	<i class="fa fa-search"></i></a></li>-->
-								<!--	<li><a href=""><i class="fa fa-link"></i></a></li>-->
-								<!--</ul>-->
-							</li>
-
-						</ul>
-
-						<!-- ---------------------------------------------------------------------->
-						<!-- ----------------------- gallery display : kids --------------------->
-						<!-- ---------------------------------------------------------------------->
-
-						
-						<!-- ----------------------- gallery display : Co Working Space --------------------->
-						<ul style="display:none;" class="project-wrapper wow animated fadeInUp">
-
-							<?php foreach ( $alb as $row ): ?>
-								<li class="portfolio-item">
-									<img src="" class="img-responsive" alt="<?= $row['caption'];?>">
-									<figcaption class="mask">
-										<!-- <h3>Coworking Space</h3>
-										<p>Low Speed Internet Access,Free Flow Water,Convenience Space & Furniture </p> -->
-									</figcaption>
-									<ul class="external">
-										<li><a class="fancybox" title="<?= $row['judul'];?>" data-fancybox-group="1" href="AdminCocreative/asset/img/album/<?= $row['gambar'];?>">
-										<i class="fa fa-search"></i></a></li>
-										<li><a href=""><i class="fa fa-link"></i></a></li>
-									</ul>
-								</li>
-							<?php endforeach; ?>
-
-						<!-- ----------------------- gallery display : Our Space --------------------->
-							<?php foreach ( $alb1 as $row ): ?>
-								<li class="portfolio-item">
-									<img src="" class="img-responsive" alt="<?= $row['caption'];?>">
-									<figcaption class="mask">
-										<!-- <h3>Coworking Space</h3>
-										<p>Low Speed Internet Access,Free Flow Water,Convenience Space & Furniture </p> -->
-									</figcaption>
-									<ul class="external">
-										<li><a class="fancybox" title="<?= $row['judul'];?>" data-fancybox-group="2" href="AdminCocreative/asset/img/album/<?= $row['gambar'];?>">
-										<i class="fa fa-search"></i></a></li>
-										<li><a href=""><i class="fa fa-link"></i></a></li>
-									</ul>
-								</li>
-							<?php endforeach; ?>
-
-						<!-- ----------------------- gallery display : Event Space --------------------->
-							<?php foreach ( $alb2 as $row ): ?>
-								<li class="portfolio-item">
-									<img src="" class="img-responsive" alt="<?= $row['caption']?>">
-									<figcaption class="mask">
-										<!-- <h3>Coworking Space</h3>
-										<p>Low Speed Internet Access,Free Flow Water,Convenience Space & Furniture </p> -->
-									</figcaption>
-									<ul class="external">
-										<li><a class="fancybox" title="<?= $row['judul']?>" data-fancybox-group="3" href="AdminCocreative/asset/img/album/<?= $row['gambar']?>">
-										<i class="fa fa-search"></i></a></li>
-										<li><a href=""><i class="fa fa-link"></i></a></li>
-									</ul>
-								</li>
-							<?php endforeach; ?>
-
-						<!-- ----------------------- gallery display : Meeting Room --------------------->
-							<?php foreach ( $alb3 as $row ): ?>
-								<li class="portfolio-item">
-									<img src="" class="img-responsive" alt="<?= $row['caption']?>">
-									<figcaption class="mask">
-										<!-- <h3>Coworking Space</h3>
-										<p>Low Speed Internet Access,Free Flow Water,Convenience Space & Furniture </p> -->
-									</figcaption>
-									<ul class="external">
-										<li><a class="fancybox" title="<?= $row['judul']?>" data-fancybox-group="4" href="AdminCocreative/asset/img/album/<?= $row['gambar']?>">
-										<i class="fa fa-search"></i></a></li>
-										<li><a href=""><i class="fa fa-link"></i></a></li>
-									</ul>
-								</li>
-							<?php endforeach; ?>
-
-						<!-- ----------------------- gallery display : Ameneties --------------------->
-							<?php foreach ( $alb4 as $row ): ?>
-								<li class="portfolio-item">
-									<img src="" class="img-responsive" alt="<?= $row['caption']?>">
-									<figcaption class="mask">
-										<!-- <h3>Coworking Space</h3>
-										<p>Low Speed Internet Access,Free Flow Water,Convenience Space & Furniture </p> -->
-									</figcaption>
-									<ul class="external">
-										<li><a class="fancybox" title="<?= $row['judul']?>" data-fancybox-group="5" href="AdminCocreative/asset/img/album/<?= $row['gambar']?>">
-										<i class="fa fa-search"></i></a></li>
-										<li><a href=""><i class="fa fa-link"></i></a></li>
-									</ul>
-								</li>
-							<?php endforeach; ?>
-
-						<!-- ----------------------- gallery display : office Space --------------------->
-							<?php foreach ( $alb5 as $row ): ?>
-								<li class="portfolio-item">
-									<img src="" class="img-responsive" alt="<?= $row['caption']?>">
-									<figcaption class="mask">
-										<!-- <h3>Coworking Space</h3>
-										<p>Low Speed Internet Access,Free Flow Water,Convenience Space & Furniture </p> -->
-									</figcaption>
-									<ul class="external">
-										<li><a class="fancybox" title="<?= $row['judul']?>" data-fancybox-group="6" href="AdminCocreative/asset/img/album/<?= $row['gambar']?>">
-										<i class="fa fa-search"></i></a></li>
-										<li><a href=""><i class="fa fa-link"></i></a></li>
-									</ul>
-								</li>
-							<?php endforeach; ?>
-
-						</ul>
+						<div class="col-lg-6 overlayproducts">
+							<a href="product_coworking.html"><img src="img/coworking.jpg" alt="" class="imgnew-products" width="100%"></a>
+								<div class="mid-text">
+									<div class="text-product">
+										Coworking Space
+									</div>
+								</div>
+						</div>
+						<div class="col-lg-6 overlayproducts">
+							<a href="product_officespace.html"><img src="img/office.jpg" alt=""  class="imgnew-products" width="100%"></a>
+							<div class="mid-text">
+								<div class="text-product">
+									Office Space
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</section>
+					<div class="row" style="margin: 20px 0;">
+						<div class="col-lg-6 overlayproducts">
+							<img src="img/Virtual Office 1.jpg" alt="" class="imgnew-products" width="100%">
+							<div class="mid-text">
+								<div class="text-product">
+									Virtual Office
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 overlayproducts">
+							<img src="img/MEETING.jpg" alt="" class="imgnew-products" width="100%">
+							<div class="mid-text">
+								<div class="text-product">
+									 Meeting Room
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin: 20px 0;">
+						<div class="col-lg-6 overlayproducts">
+							<a href="product_eventspace.html"> <img src="img/Event Space.jpg" alt="" class="imgnew-products" width="100%"></a>
+							<div class="mid-text">
+								<div class="text-product">
+									 Event Space
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 overlayproducts">
+							<a href="product_coffeeshop.html"> <img src="img/Coffee Shop.jpeg" alt="" class="imgnew-products" width="100%"></a>
+							<div class="mid-text">
+								<div class="text-product">
+									 Coffee Space
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 overlayproducts">
+							<img src="img/legality.jpg" alt="" class="imgnew-products" width="100%">
+							<div class="mid-text">
+								<div class="text-product">
+									 Legality
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			<!-- New Products Ends -->
+			
 			<section id="event"> 
-				<div class="overlay">
+				<div class="overlay" style="border-top:2px solid #ededed;">
 				<div class="container">
 					<div class="row">
-						<div class="sec-title text-center white wow animated fadeInDown">
+						<div class="sec-title text-center white wow animated fadeInDown newpartners">
 							<h2>OUR PARTNERS & CLIENTS</h2>
 						</div>
 						<div id="events" class=" wow animated fadeInUp">
@@ -626,16 +486,9 @@ require "AdminCocreative/function.php";
 								</div> <!-- end of container -->
 							</div> <!-- end of slider-1 -->							
 							<div class="events-item text-center">
-													
-													
 												</div>
-												
 											</div>
-											
-
 										</div>
-										
-
 									</div>
 								</div>
 							</section>
