@@ -394,7 +394,7 @@ require "AdminCocreative/function.php";
 					</div>
 					<div class="row" style="margin: 20px 0;">
 						<div class="col-lg-6 overlayproducts">
-							<img src="img/Virtual Office 1.jpg" alt="" class="imgnew-products" width="100%">
+							<a href="product_virtualoffice.html"><img src="img/Virtual Office 1.jpg" alt="" class="imgnew-products" width="100%"></a> 
 							<div class="mid-text">
 								<div class="text-product">
 									Virtual Office
@@ -402,7 +402,7 @@ require "AdminCocreative/function.php";
 							</div>
 						</div>
 						<div class="col-lg-6 overlayproducts">
-							<img src="img/MEETING.jpg" alt="" class="imgnew-products" width="100%">
+							<a href="product_meetingroom.html"><img src="img/MEETING.jpg" alt="" class="imgnew-products" width="100%"></a> 
 							<div class="mid-text">
 								<div class="text-product">
 									 Meeting Room
@@ -769,30 +769,123 @@ require "AdminCocreative/function.php";
 		
 		<footer id="footer">
 			<div class="container">
+				<div class="row justify-content-center"style="margin-bottom:20px !important;">
+					<div class="col-md-3">
+						<div class="heading-footer">
+							<div class="footer-logo" style="margin-bottom:10px;">
+								<img src="assets/img/Logo-web.png" alt="logofooter" width='80'>
+							</div>
+							<div class="lis-footer">
+								<div>
+									<span style="font-size:12px;">
+									PT Tunas Mandiri
+									</span>	
+								</div>
+								<div> 
+									<span style="font-size:12px;">
+									Jl. Cisitu Indah III No. 2, Dago, Coblong, Bandung
+									</span>
+								</div>
+								<div class="footer-contact">
+									<span class="asd">
+									<a href="https://wa.me/628112163838?text=Saya%20mau%20tanya%21" target="_blank"> 0811 216 3838</a>
+									</span>
+								</div>
+							</div>
+							<!-- <ul class="list-footer">
+								<li>
+									<a href="">PT. Tunas Tegak Mandiri</a>
+								</li>
+								<li>
+									<a href="https://www.google.com/maps/dir/-6.8762818,107.6123173/happy+co+creative/@-6.8770188,107.6054017,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x2e68e7d5b001ef99:0x9bccc61e4dc81445!2m2!1d107.6123476!2d-6.8761396">Jl. Cisitu Indah III No. 2, Dago, Coblong, Bandung</a>
+								</li>
+								<li>
+									<a href="https://wa.me/628112163838?text=Saya%20mau%20tanya%21" target="_blank"> 0811 216 3838</a>
+								</li>
+							</ul> -->
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="heading-footer">
+								<h5>Our Product</h5>
+								<ul class="list-footer">
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Coworking Space</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Office Space</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Event Space</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Meeting Room</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Virtual Office</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Legalitas</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Coffee Shop</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					<div class="col-md-3">
+						<div class="heading-footer">
+								<h5> What's On Co Creative</h5>
+								<ul class="list-footer">
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Gallery</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Event</a>
+									</li>
+									<li>
+										<i class="fa fa-caret-right" aria-hidden="true"></i>
+										<a href="">Article</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					<div class="col-md-3">
+						<div class="heading-footer">
+							<h5>Follow Us</h5>
+							<ul class="list-footer">
+								<li>
+									<i class="fa fa-caret-right" aria-hidden="true"></i>
+									<a href="https://twitter.com/happycocreative">Twitter</a>
+								</li>
+								<li>
+									<i class="fa fa-caret-right" aria-hidden="true"></i>
+									<a href="https://www.facebook.com/happycocreative.id">Facebook</a>
+								</li>
+								<li>
+									<i class="fa fa-caret-right" aria-hidden="true"></i>
+									<a href="https://www.linkedin.com/in/happy-cocreative-id/">Linkedin</a>
+								</li>
+								<li>
+									<i class="fa fa-caret-right" aria-hidden="true"></i>
+									<a href="#">Youtube</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 				<div class="row text-center">
 					<div class="footer-content">
-						<div class="wow animated fadeInDown">
-							<p>newsletter signup</p>
-							<p>Get Cool Stuff! We hate spam!</p>
-						</div>
-						<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
-							<div class="input-field">
-								<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
-								<button type="submit" class="submit-icon">
-									<i class="fa fa-paper-plane fa-lg"></i>
-								</button>
-							</div>
-						</form>
-						<!-- <div class="footer-social">
-							<ul>
-								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
-							</ul>
-						</div> -->
-						
 						<p>Copyright &copy; 2019 Developed by <a href="#">PT.BTI</a>  Original Design by <a href="http://www.themefisher.com">Themefisher</a> 
 						</p>
 					</div>

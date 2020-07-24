@@ -46,8 +46,18 @@
   <h3>Form Pendaftaran</h3>
   <p class="p-class">Coworking Space</p>
 </div>
-
 <form class="mainform">
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="inputState">Pilih Paket</label>
+        <select id="inputState" class="form-control" style="text-align: center !important;">
+          <option selected>3 HOURS</option>
+          <option>6 HOURS</option>
+          <option> ALL DAY</option>
+          <option>MEMBERSHIP</option>
+        </select>
+      </div>
+    </div>
 
     <div class="form-row">
       <div class="form-group col-md-6">
@@ -66,14 +76,18 @@
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      <div class="span-term">
+        <span class="term-form">
+          *Pastikan email anda adalah email aktif yang anda gunakan sekarang. 
+        </span>
+      </div>
+      
     </div>
   </div>
  
   <div class="form-group">
     <label for="inputAddress2">PHONE/WA</label>
-    <input type="number" class="form-control" id="inputAddress2" placeholder="081*******">
+    <input type="number-input" class="form-control" id="inputAddress2" placeholder="081*******">
   </div>
   
   <div class="form-group" style="text-align: center;">

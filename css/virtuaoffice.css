@@ -47,6 +47,19 @@ body{
     vertical-align: middle;
 }
 
+.span-term{
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    
+
+}
+
+
 
 @media screen and (max-width: 699px){
     .main-logo{
